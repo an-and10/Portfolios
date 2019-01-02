@@ -1,0 +1,163 @@
+body{
+  font-family: Georgia, "Times New Romam", Times,serif;
+  color: #555;
+  background= #ccc;
+  padding: 0px;
+  margin: 0px;
+}
+/*h1,h2,h3,h4,h5,h6{
+margin-top: 0;
+font-weight: normal;
+color: #333;
+}*/
+.container-outer{
+  margin: 0 auto;
+}
+.top-coloum{
+  height: 120px;
+  background-color: lightblue;
+  position: relative;
+}
+.heading{
+  color:black;
+  padding: 5px 0;
+  position: absolute;
+  top: 10px;
+  left: 220px;
+  z-index: 100;
+
+}
+.heading h1{
+  font-size: 5em;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.navbar{
+  margin-top: 20px;
+  background:yellow;
+  border-radius: 15px;
+
+}
+.navigation{
+  padding: 0px;
+}
+/* navigation*/
+.collapse navbar-collapse ul li{
+  margin-right: 15px;
+  border-right: 1px solid #d5fdfd;
+}
+.collapse navbar-collapse ul li a{
+  font-size: 35px;
+  color: black;
+  margin-top: 4px;
+  padding: 12px 30px 10px 30px;
+}
+.nav navbar-nav li a:hover{
+  background: blue;
+}
+@media screen and(max-width:700px){
+  .top-coloum{
+    height: 80px;
+  }
+  .heading{
+    top: 10px;
+    left: 0px;
+    z-index: 100;
+  }
+  .heading h1{
+    font-size: 2em;
+  }
+}
+.middle{
+  background: lightyellow;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 3px rgba(255,255,255,0.8);
+}
+.header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.description{
+  font-size: 20px;
+  color: #999;
+  text-align: center;
+}
+.small
+{
+  font-size: 70%;
+}
+/* middle portion*/
+.main{
+  border: 1px solid #222;
+  border-radius: 5px;
+  padding-bottom: 8px;
+  padding-top: 10px;
+  margin-bottom: 3px;
+}
+.post{
+  margin-bottom: 60px;
+}
+.postmeta{
+  margin-bottom: 20px;
+  color:#999;
+}
+.title{
+  margin-top: 30px;
+  font-size: normal;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+.caption{
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+.first-image{
+  padding-top: 5px
+  
+  margin-top: 5px
+}
+.desc{
+  padding-top: 5px;
+  font-size: 14px;
+  line-height:1.7
+}
+/*sidebar*/
+.sidebar-content{
+  padding: 20px 30px;
+  border: 1px solid #222;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+}
+.inset{
+  height: 190px;
+  padding: 20px;
+}
+.small-text{
+  font-size: 12px;
+  line-height: 2.2;
+}
+.sidebar-image{
+  padding: 0px;
+  margin: 0px;
+}
+.sidebar-image img{
+  padding 0px;
+  margin-left: 0px;
+
+}
+.footer{
+  text-align: center;
+  height: 60px;
+  background: #ccc;
+  padding : 20px;
+  color: #222;
+  margin-top: 20px;
+  border-top: 1px solid blue
+}
